@@ -1,4 +1,4 @@
-package com.openxu.calendar;
+﻿package com.openxu.calendar;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -292,7 +292,7 @@ public class CustomMonth extends View {
         }
     }
 
-    //点击事件处理
+    //点击事件处理 
     private PointF focusPoint = new PointF();
     @Override
     public boolean onTouchEvent(MotionEvent event) {
