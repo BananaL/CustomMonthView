@@ -216,7 +216,7 @@ public class CustomMonth extends View {
                        canvas.drawText(month[j],((columnWidth-textLen)/2)+widthStart,((mValueHeight-textHight)/2)+hightStart+FontUtil.getFontLeading(mPaint),mPaint);
                    }
                }else{
-                   //月份对应的值
+                   //月份对应值
                    for(int j = 0;j<6;j++){
                        //每列
                        widthStart = columnWidth*j+mSpaceLineHeight*j;
