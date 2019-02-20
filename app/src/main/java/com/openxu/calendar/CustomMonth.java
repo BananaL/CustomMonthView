@@ -263,7 +263,7 @@ public class CustomMonth extends View {
                            canvas.drawRect(rectF,bgPaint);
                        }
 
-//                       //画月对应的值
+//                       //绘制月对应的值
                        mPaint.setTextSize(mValueTextSize);
                        mPaint.setColor(mValueTextColor);
                        float textLen = FontUtil.getFontlength(mPaint,dataLists.get(count));
