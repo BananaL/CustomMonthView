@@ -306,7 +306,7 @@ public class CustomMonth extends View {
 //                handleTouchPoint(focusPoint);
                 break;
         }
-//        return super.onTouchEvent(event);
+//        return super.onTouchEvent(event);//
         return true;
     }
 
