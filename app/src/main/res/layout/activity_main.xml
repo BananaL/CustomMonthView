@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:openxu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.openxu.calendar.CustomCalendar
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            openxu:mMonthRowL="@drawable/custom_calendar_row_left"
+            openxu:mMonthRowR="@drawable/custom_calendar_row_right"
+            openxu:mMonthRowSpac="20dip"
+
+            openxu:mTextSizeMonth="20sp"
+            openxu:mTextSizeWeek="17sp"
+            openxu:mTextSizeDay="17sp"
+            openxu:mTextSizePre="10sp"
+
+            openxu:mTextColorMonth="#4b4b4b"
+            openxu:mTextColorWeek="#9e9e9d"
+            openxu:mSelectWeekTextColor="#f67633"
+            openxu:mTextColorDay="#686768"
+            openxu:mTextColorPreFinish="#fc7451"
+            openxu:mTextColorPreUnFinish="#60ba8d"
+            openxu:mTextColorPreNull="#cecdcd"
+            openxu:mSelectTextColor="#ffffff"
+
+            openxu:mMonthSpac="10dip"
+            openxu:mLineSpac="12dip"
+            openxu:mTextSpac="8dip"
+
+            openxu:mCurrentBg="#6E6E6E"
+            openxu:mCurrentBgStrokeWidth="1.5dip"
+            openxu:mCurrentBgDashPath="@array/customCalendar_currentDay_bg_DashPath"
+            openxu:mSelectBg="#fe7f5c"
+            openxu:mSelectRadius="15dip" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#00ff44"/>
+        <com.openxu.calendar.CustomMonth
+            android:id="@+id/customMouth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            openxu:mYearRowL="@drawable/custom_calendar_row_left"
+            openxu:mYearRowR="@drawable/custom_calendar_row_right"
+            openxu:mTitleBg="#e4e4e4"
+            openxu:mTitleHeight="40dp"
+            openxu:mTitleTextColor="#f70808"
+            openxu:mTitleTextSize="20dp"
+            openxu:mMonthBg="#85bbf1"
+            openxu:mMonthTextColor="#000000"
+            openxu:mMonthTextSize="16dp"
+            openxu:mValueBg="#ffffff"
+            openxu:mValueHeight="30dp"
+            openxu:mValueTextSize="16dp"
+            openxu:mValueTextColor="#000000"
+            openxu:mValueSelectedBg="#c02af2"
+            openxu:mSpaceLineColor="#e4e4e4"
+            openxu:mSpaceLineHeight="2dp"
+            />
+    </LinearLayout>
+
+</ScrollView>
